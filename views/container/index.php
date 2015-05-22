@@ -4,14 +4,18 @@ a { color: #009688; text-decoration: none; background-color: transparent; }
 .container { text-align: center; display: table-cell; vertical-align: middle; }
 .content { text-align: center; display: inline-block; }
 .title { font-size: 75px; margin-bottom: 40px; }
-.litle { font-size: 20px; margin-bottom: 40px; }
-.quote { font-size: 30px; }
+.litle { font-size: 20px; text-align: right; margin-bottom: 40px; }
+.quote { font-size: 30px; text-align: right; }
 ") ?>
 
 <div class="container">
     <div class="content">
-        <div class="title"><?php echo yii\helpers\HTML::a('Yii Foo', ['/site']) ?></div>
-        <div class="litle">Want to see Yii 2 Container in action? Click <?php echo yii\helpers\HTML::a('here', ['/container']) ?>.</div>
+        <div class="title"><?php echo yii\helpers\HTML::a('Dependency Injection Container', ['/site']) ?></div>
+
+        <div class="litle"><?php echo $description; ?></div>
+
+        <?php foreach ($inspires as $inspire): ?>
         <div class="quote"><?php echo $inspire; ?></div>
+        <?php endforeach; ?>
     </div>
 </div>

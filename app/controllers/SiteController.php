@@ -13,7 +13,7 @@ class SiteController extends Controller
     /**
      * Controllers are composed of actions which are the most basic units that end users can address and request for execution. A controller can have one or multiple actions. This method is reponsible to show the index page.
      *
-     * @return void
+     * @return string
      */
     public function actionIndex()
     {
