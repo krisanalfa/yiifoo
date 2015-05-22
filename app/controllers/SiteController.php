@@ -1,7 +1,7 @@
 <?php namespace app\controllers;
 
-use yii\web\Controller;
 use app\Inspiring;
+use yii\web\Controller;
 
 /**
  * Controller is the base class of web controllers.

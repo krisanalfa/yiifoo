@@ -14,12 +14,12 @@ class Inspiring
      */
     protected $items = [
 
+        '"The trouble is you think you have time." — Buddha',
+        '"Whatever you are, be a good one." — Abraham Lincoln',
         '"I don’t want to earn my living; I want to live." — Oscar Wilde',
         '"Life shrinks or expands in proportion to one’s courage." — Anais Nin',
         '"Life must be lived forwards, but can only be understood backwards." — Kierkegaard',
-        '"The trouble is you think you have time." — Buddha',
         '"Life is a shipwreck, but we must not forget to sing in the lifeboats." — Voltaire',
-        '"Whatever you are, be a good one." — Abraham Lincoln',
         '"Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment." — Buddha',
 
     ];
