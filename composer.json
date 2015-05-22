@@ -1,0 +1,25 @@
+{
+    "require": {
+        "yiisoft/yii2": "^2.0@dev"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0@dev"
+    },
+    "authors": [
+        {
+            "name": "Krisan Alfa Timur",
+            "email": "krisan47@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
