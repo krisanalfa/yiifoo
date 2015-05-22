@@ -15,25 +15,33 @@ Yii 2 requires PHP 5.4 and embraces the best practices and protocols found in mo
 WHAT IS Yii Foo
 ---------------
 
-It's an archetype, a skeleton of an application built with Yii2 Framework.
+It's an archetype, a skeleton of an application built with Yii 2 Framework.
+Yii Foo is absolutely written from scratch.
+The real vanila makes this skeleton compatible with official Yii 2 skeleton.
 
 WHY SHOULD I USE Yii Foo
 ------------------------
 
 You **shouldn't** use this skeleton if you want to build a real application.
-This skeleton mainly purposed to **quick learn about Yii2 application lifecycle**.
+This skeleton mainly purposed to **quick learn about Yii 2 application lifecycle**.
 I made it as simple, barebone, light, and free pollutant as possible.
-It's really easy to understand.
+And of course, it's really easy to understand.
+You can use this skeleton if you want to:
+
+* Make a distributable components / modules / extensions.
+* Yii 2 test drive.
+* Understanding Yii 2 fundamentals.
+* Research for Yii 2 hacking / extending the core.
 
 DIRECTORY STRUCTURE
 -------------------
 
 ```
-app/       Application source code, following PSR-4 coding standard
-bootstrap/ Application bootstrap (initialization of application)
-config/    A place to store your configuration
-public/    A public folder for HTTP web server
-views/     A place where you store view files.
+app/          Application source code, following PSR-4 coding standard
+bootstrap/    Application bootstrap (initialization of application)
+config/       A place to store your configuration
+public/       A public folder for HTTP web server
+views/        A place where you store view files.
 ```
 
 REQUIREMENTS
