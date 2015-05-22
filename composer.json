@@ -1,6 +1,7 @@
 {
     "require": {
-        "yiisoft/yii2": "^2.0@dev"
+        "yiisoft/yii2": "^2.0@dev",
+        "bower-asset/bootstrap-material-design": "0.3.0"
     },
     "require-dev": {
         "yiisoft/yii2-gii": "^2.0@dev"
